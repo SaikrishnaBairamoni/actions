@@ -35,6 +35,8 @@ on:
         required: true
       aws-secret-access-key:
         required: true
+      GH_PAT:   
+        required: true
 
 jobs:
   image-name-get:
